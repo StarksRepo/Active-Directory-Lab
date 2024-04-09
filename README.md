@@ -5,8 +5,8 @@
 * Install and configure a domain controller using Active Directory.
 * Create and organize objects such as users and security groups using Active Directory.
 * Create and manage group policies (GPO) to perform the actions listed below:
-  * Restrict access to certain applications.
-  * Restrict access to certain folders.
+  * Allow/Disallow access to certain applications.
+  * Allow/Disallow access to certain folders.
   * Map set folders automatically.
   * Disable the download of executable files.
   * Set up day and time restrictions.
@@ -26,4 +26,15 @@ domain are managed by Active Directory (AD).
 <img width="300" alt="6-1" src="https://github.com/StarksRepo/Active-Directory-Lab/assets/155681117/8ec70490-c7da-4a30-a073-a94b793fdf9f">
 <img width="300" alt="8" src="https://github.com/StarksRepo/Active-Directory-Lab/assets/155681117/72958ca4-befa-4c23-9bbb-07ec005bb284">
 
-## Active Directory Management 
+## Creating Admin User 
+Now we are going to create an admin user account and add them to Domain Admins group in AD.
+1. Open Active Directory Users and Computers.
+2. Right click on your domain.
+3. Click *new*, then click *user* and fill out the information as I did below to create your admin user. 
+ <img src="https://github.com/StarksRepo/Active-Directory-Lab/assets/155681117/626cae37-96e6-4765-ba1f-ab201fbb9c24" width=300>
+ 
+4. Set the user password to something you can remember, hit *next* and then *finish*
+5. After creating the user, right click on the users name and select *properties*, then *memeber of* and add the user to *Domain Admins*
+
+## Adding Users to AD via Powershell
+1. From the start menu navigate to PowerShell ISE and then open the script on the desktop named 1_CREATE_USERS inside of your PowerShell ISE instance
