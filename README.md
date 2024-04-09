@@ -25,3 +25,5 @@ domain are managed by Active Directory (AD).
 <img width="300" alt="5-1024x664-1" src="https://github.com/StarksRepo/Active-Directory-Lab/assets/155681117/6096a936-8fac-4229-b4f6-14cfeb3036ca">
 <img width="300" alt="6-1" src="https://github.com/StarksRepo/Active-Directory-Lab/assets/155681117/8ec70490-c7da-4a30-a073-a94b793fdf9f">
 <img width="300" alt="8" src="https://github.com/StarksRepo/Active-Directory-Lab/assets/155681117/72958ca4-befa-4c23-9bbb-07ec005bb284">
+
+## Active Directory Management 
