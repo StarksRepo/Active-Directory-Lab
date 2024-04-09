@@ -35,6 +35,10 @@ Now we are going to create an admin user account and add them to Domain Admins g
  
 4. Set the user password to something you can remember, hit *next* and then *finish*
 5. After creating the user, right click on the users name and select *properties*, then *memeber of* and add the user to *Domain Admins*
+  
+<img src="https://github.com/StarksRepo/Active-Directory-Lab/assets/155681117/552c561d-baec-40b7-b09e-bacf1f3909bd" width=300>
+
+
 
 ## Adding Users to AD via Powershell
 1. From the start menu navigate to PowerShell ISE and then open the script on the desktop named 1_CREATE_USERS inside of your PowerShell ISE instance
