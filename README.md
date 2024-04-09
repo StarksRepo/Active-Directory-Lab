@@ -40,5 +40,12 @@ Now we are going to create an admin user account and add them to Domain Admins g
 
 
 
-## Adding Users to AD via Powershell
+## Adding 1,0000 Users to AD via Powershell
 1. From the start menu navigate to PowerShell ISE and then open the script on the desktop named 1_CREATE_USERS inside of your PowerShell ISE instance
+2. If you analyze the script you can see that it is looping through all of the names in the names.txt file, line by line, and then creating a new user for each line. If you look closely, you can see that it’s filling out all of the required criteria we already saw when manually creating a user for each new user. It’s also following out format for usernames by taking the first initial of the first name and adding it to the last name, like our rstarks as we used before. This demonstrates the power of PowerShell scripting to automate tasks that would take an awful amount of time to complete manually.
+
+<img src="https://github.com/StarksRepo/Active-Directory-Lab/assets/155681117/c54fefc5-7ab1-495f-a9ae-c2ed987f46f3" width=400>
+
+3. Now if you check your Active Directory Users and refresh your domain you will see all the new users and you can see that you now 1,000 new users generated from the script. Shown below;
+
+<img src="https://github.com/StarksRepo/Active-Directory-Lab/assets/155681117/c6cc5af1-d0de-44df-8907-9e155ac91565" width=300>
