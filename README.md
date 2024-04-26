@@ -34,7 +34,7 @@
 
 <img src="https://github.com/StarksRepo/Active-Directory-Lab/assets/155681117/b092ff8a-b8f3-430f-8513-a2bc010e037a" width=500>
 
-2. Click *Next*
+2. Click *Next*0.
 3. Click *Install now*
 4. Select *Windows Server 2019 Standalone Evaluation (Desktop Experience)* and click on *Next*.
 
@@ -81,7 +81,7 @@ Preferred DNS Server: 10.80.80.2
 
 <img src="https://github.com/StarksRepo/Active-Directory-Lab/assets/155681117/20dfa633-cc4a-4cd6-86f2-45425df9debe" width=500>
 
-
+## Active Directory & DNS Installation
 
 
 
