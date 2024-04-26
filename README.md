@@ -40,6 +40,11 @@
 
 <img src="https://github.com/StarksRepo/Active-Directory-Lab/assets/155681117/27e7f054-53bc-4a9b-8a11-905458e4e9d9" width=500>
 
+5. Accept the agreement and click on *Next*.
+6. Select Custom: Install Windows only (Advanced).
+7. Select Disk 0 and click on Next.
+
+<img src="https://github.com/StarksRepo/Active-Directory-Lab/assets/155681117/d97f7cc4-110c-448a-b0d8-41c2749fe54a" width=500>
 
 
 
