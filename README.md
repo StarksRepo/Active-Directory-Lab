@@ -79,6 +79,7 @@ Default gateway: 10.80.80.1
 
 Preferred DNS Server: 10.80.80.2
 
+<img src="https://github.com/StarksRepo/Active-Directory-Lab/assets/155681117/20dfa633-cc4a-4cd6-86f2-45425df9debe" width=500>
 
 
 
