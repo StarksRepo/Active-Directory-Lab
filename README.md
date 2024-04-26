@@ -69,7 +69,15 @@ Select Internet Protocol Version 4 (TCP/IPv4) and click on Properties.
 
 <img src="https://github.com/StarksRepo/Active-Directory-Lab/assets/155681117/b62c511c-0c92-4018-b2c5-2a46991b40d5" width=500>
 
+Enter the details as shown below and then click on OK. Click on OK again to close the Ethernet Properties menu.
 
+IP address: 10.80.80.2
+
+Subnet mask: 255.255.255.0
+
+Default gateway: 10.80.80.1
+
+Preferred DNS Server: 10.80.80.2
 
 
 
