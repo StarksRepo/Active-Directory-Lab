@@ -10,7 +10,7 @@
   * Allow/Disallow access to certain folders.
   * Map set folders automatically.
   * Disable the download of executable files.
-  * Set up day and time restrictions.
+
 
 ## Virtual Machine Configuration
 1. Click on *Tools* from the VirtualBox sidebar and select *New*.
