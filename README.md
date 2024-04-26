@@ -56,6 +56,21 @@ Once you log in. Server Manager will automatically open. A popup will also open 
 
 <img src="https://github.com/StarksRepo/Active-Directory-Lab/assets/155681117/70487ae1-2b5e-48a1-bb0c-370b1ec8e6ae" width=500>
 
+## Network Configuration
+From the taskbar right-click on the network icon and select Open Network & Internet settings.
+
+<img src="https://github.com/StarksRepo/Active-Directory-Lab/assets/155681117/13fbd220-dacc-463d-9f94-5610789329b5" width=500>
+
+Click on “Change adapter options”.
+
+On the Network Connections page, we should see the Ethernet adapter. Right-click on the adapter and select Properties.
+
+Select Internet Protocol Version 4 (TCP/IPv4) and click on Properties.
+
+<img src="https://github.com/StarksRepo/Active-Directory-Lab/assets/155681117/b62c511c-0c92-4018-b2c5-2a46991b40d5" width=500>
+
+
+
 
 
 
