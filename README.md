@@ -46,12 +46,15 @@
 
 <img src="https://github.com/StarksRepo/Active-Directory-Lab/assets/155681117/d97f7cc4-110c-448a-b0d8-41c2749fe54a" width=500>
 
+The VM will restart a couple of times during this installation process.
+## OS Setup & Configuration
+Once the installation is complete we will be asked to set the password for the Administrator account. Once set click on Finish.
 
+<img src="https://github.com/StarksRepo/Active-Directory-Lab/assets/155681117/62ed7e5e-149b-4afc-b063-5f0265bc3134" width=500>
 
+Once you log in. Server Manager will automatically open. A popup will also open asking us to try Windows Admin Center. Click on Don't show this message again and then click on X to close the popup.
 
-
-
-
+<img src="https://github.com/StarksRepo/Active-Directory-Lab/assets/155681117/70487ae1-2b5e-48a1-bb0c-370b1ec8e6ae" width=500>
 
 
 
