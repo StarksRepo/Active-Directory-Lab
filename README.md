@@ -8,7 +8,6 @@
 * Create and manage group policies (GPO) to perform the actions listed below:
   * Allow/Disallow access to certain applications.
   * Allow/Disallow access to certain folders.
-  * Map set folders automatically.
   * Disable the download of executable files.
 
 
