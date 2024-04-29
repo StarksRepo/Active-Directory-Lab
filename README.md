@@ -98,6 +98,15 @@ Continuing the setup, we will select "Add a new forest" and follow the steps bel
 
 This configuration will set up a new forest with the specified root domain name. Following these instructions will help establish the foundation for your Active Directory environment.
 
+After a restart, I accessed the newly created Active Directory to set up a new Organizational Unit (OU), which we named "_ADMINS." Following the creation of this OU, a new user was added under this specific OU. This step ensures a well-organized structure within Active Directory, making user management more efficient and structured.
+
+<img src="https://github.com/StarksRepo/Active-Directory-Lab/assets/155681117/f2958a8c-2c18-4e21-81dc-62accaac82b8)" width=500>
+
+You will add your user to the admin group. Click on "Admin," then go to "New" and select "User." Enter the desired username and password. 
+
+After setting up the user account, log out of the current user and attempt to log in with the newly created credentials.
+
+Now that the first Domain Admin user is established, log out and log into the server using this new user account. This user will have administrative privileges within the Active Directory domain.
 
 
 
