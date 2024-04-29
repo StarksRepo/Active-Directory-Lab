@@ -75,15 +75,28 @@ Subnet mask: 255.255.255.0
 
 Preferred DNS Server: 127.0.0.1
 
-<img src="https://github.com/StarksRepo/Active-Directory-Lab/assets/155681117/20dfa633-cc4a-4cd6-86f2-45425df9debe" width=500>
+<img src="https://github.com/StarksRepo/Active-Directory-Lab/assets/155681117/114dceb2-96aa-4e98-bc54-07e0a3b9e5a5)" width=500>
 
 ## Active Directory & DNS Installation
 
+1. Open Server Manager.
+2. Navigate to "Add Roles and Feautres."
+3. Proceed with the on-screen instructions by selecting "Next" and "Next" again.
+4. Choose your server for the installation.
+5. Select "Active Directory Domain Services" as the Role.
+6. Continue with "Next," "Next," and "Next."
+7. Finally, Click on "Install" to initate the installion process.
+Following these steps, you'll seamlessly integrate Active Directory Domain Services into the server configuration.
 
+<img src="https://github.com/StarksRepo/Active-Directory-Lab/assets/155681117/9e3aa44d-270d-4da6-83cb-3352d4e77bd7)" width=500>
 
+Continuing the setup, we will select "Add a new forest" and follow the steps below:
 
+1. In the wizard, choose "Add a new forest."
+2. Specify a generic root domain name; for instance, use "mydomain.com."
+3. Proceed to the next step by clicking "Next."
 
-
+This configuration will set up a new forest with the specified root domain name. Following these instructions will help establish the foundation for your Active Directory environment.
 
 
 
