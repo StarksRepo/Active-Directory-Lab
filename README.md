@@ -58,7 +58,6 @@ Once you log in. Server Manager will automatically open. A popup will also open 
 ## Network Configuration
 From the taskbar right-click on the network icon and select Open Network & Internet settings.
 
-<img src="https://github.com/StarksRepo/Active-Directory-Lab/assets/155681117/13fbd220-dacc-463d-9f94-5610789329b5" width=500>
 
 Click on “Change adapter options”.
 
@@ -70,13 +69,11 @@ Select Internet Protocol Version 4 (TCP/IPv4) and click on Properties.
 
 Enter the details as shown below and then click on OK. Click on OK again to close the Ethernet Properties menu.
 
-IP address: 10.80.80.2
+IP address: 172.16.0.1
 
 Subnet mask: 255.255.255.0
 
-Default gateway: 10.80.80.1
-
-Preferred DNS Server: 10.80.80.2
+Preferred DNS Server: 127.0.0.1
 
 <img src="https://github.com/StarksRepo/Active-Directory-Lab/assets/155681117/20dfa633-cc4a-4cd6-86f2-45425df9debe" width=500>
 
