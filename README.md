@@ -93,3 +93,28 @@ The next crucial step is to promote the Active Directory (AD) to a Domain Contro
 
 Following that, the next step involves setting up the Remote Access Server (RAS) and Network Address Translator (NAT). 
 This configuration empowers the client computer, once it's configured, to access the internet through the Domain Controller. By implementing RAS and NAT, you establish a seamless connection for client devices to utilize the internet resources while maintaining a secure and centralized network environment through the Domain Controller.
+
+<img src="https://github.com/StarksRepo/Active-Directory-Lab/assets/155681117/d9f34745-93cd-4e53-b2c8-f2fc1654e17c)" width=500>
+
+To set up the Remote Access Server (RAS) and Network Address Translator (NAT), follow these steps:
+1. Open "Add Roles & Features" and proceed by selecting "Next."
+2. In the "Roles" section, check "Remote Access" and continue with "Next."
+3. On the "Select Role Services" page, check "Routing," and additional features, such as "Remote Access Service (RAS)," will automatically be selected. Click "Next" to proceed.
+4. Follow the prompts until the installation is complete and then close the wizard.
+
+Now, access the tools by going to "Routing and Remote Access":
+1. Right-click on the Domain Controller.
+2. Choose "Configure and Enable Routing and Remote Access."
+3. In the configuration wizard, select NAT (Network Address Translator).
+4. If no network interfaces show up, close the window and open it again.
+5. Choose the "INTERNET" interface and complete the configuration.
+By following these steps, you enable remote access and NAT, allowing client computers to access the internet through the Domain Controller.
+
+<img src="https://github.com/StarksRepo/Active-Directory-Lab/assets/155681117/fdfb67c5-b568-4bc5-97aa-fa29c990ca2f)" width=500>
+
+
+
+
+
+
+
