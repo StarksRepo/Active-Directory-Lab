@@ -88,3 +88,8 @@ The next crucial step is to promote the Active Directory (AD) to a Domain Contro
 <img src="https://github.com/StarksRepo/Active-Directory-Lab/assets/155681117/a23a482d-8d8a-42cb-9bbd-b962b5816ece)" width=500>
 
 ## Second Part of RAS / NAT / DHCP
+
+<img src="https://github.com/StarksRepo/Active-Directory-Lab/assets/155681117/94f3f2d9-bd03-4714-a88f-2fbb210329b0)" width=500>
+
+Following that, the next step involves setting up the Remote Access Server (RAS) and Network Address Translator (NAT). 
+This configuration empowers the client computer, once it's configured, to access the internet through the Domain Controller. By implementing RAS and NAT, you establish a seamless connection for client devices to utilize the internet resources while maintaining a secure and centralized network environment through the Domain Controller.
