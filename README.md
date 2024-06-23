@@ -147,4 +147,20 @@ Once PowerShell is open, navigate to the directory where you saved the PowerShel
 
 <img src="https://github.com/StarksRepo/Active-Directory-Lab/assets/155681117/c4875bda-669f-4077-a7b1-7ef25787eed6)" width=500>
 
+Now all we have to do is run the script but we have to make sure the names.txt file is in the same place as the code so now. 
+Use the cd command to change the directory to where the script is located. Replace "C:\Path\To\Your\Script\Directory" with the actual path where your script is located
 
+<img src="https://github.com/StarksRepo/Active-Directory-Lab/assets/155681117/331cbc93-3433-4cfc-ad94-244342799125)" width=500>
+
+As you can see running the script successfully creates the 1000 users in your Active Directory. The PowerShell script has processed the information from the "names.txt" file, and the users are now set up and ready for use.
+
+<img src="https://github.com/StarksRepo/Active-Directory-Lab/assets/155681117/274262b3-44fa-445f-8c6f-3b0b3d26535b)" width=500>
+
+Now we have to check that the users were successfully added to AD.
+
+Open Server Manager:Launch Server Manager on your Windows Server.
+Access Local Server Information:In Server Manager, look for the "Local Server" tab on the left side.
+Check Active Directory Users:Within the "Local Server" information, there should be a section related to Active Directory. Click on the task link that typically says "Tools" or "Manage."
+Open Active Directory Users and Computers:In the "Tools" or "Manage" section, look for "Active Directory Users and Computers" and open it.
+Verify User Creation:Navigate to the Organizational Unit (OU) where you created the users, such as "_ADMINS."Check if the users have been successfully created. You should see the 1000 users listed in this OU.
+By going through these steps, you can confirm that the script has effectively created the users within your Active Directory. If you encounter any issues or have further questions, feel free to ask!
