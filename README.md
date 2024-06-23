@@ -85,5 +85,6 @@ Now that the first Domain Admin user is established, log out and log into the se
 
 The next crucial step is to promote the Active Directory (AD) to a Domain Controller. This action transforms the server into a central hub that all client computers will access to connect to the internet. This promotion establishes a hierarchical and organized structure within the network, ensuring efficient communication and access for all connected devices.
 
+<img src="https://github.com/StarksRepo/Active-Directory-Lab/assets/155681117/a23a482d-8d8a-42cb-9bbd-b962b5816ece)" width=500>
 
 
