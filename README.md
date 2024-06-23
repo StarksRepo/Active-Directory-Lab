@@ -87,4 +87,4 @@ The next crucial step is to promote the Active Directory (AD) to a Domain Contro
 
 <img src="https://github.com/StarksRepo/Active-Directory-Lab/assets/155681117/a23a482d-8d8a-42cb-9bbd-b962b5816ece)" width=500>
 
-
+## Second Part of RAS / NAT / DHCP
