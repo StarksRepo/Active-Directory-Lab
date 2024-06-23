@@ -120,10 +120,31 @@ Proceed to configure DHCP (Dynamic Host Configuration Protocol) by following the
 3. Set the DHCP IP address scope to 172.16.0.100-200. This range will allow for the assignment of new IP addresses to devices within your network.
 By establishing this DHCP IP address scope, you ensure that devices connecting to your network will be dynamically assigned IP addresses within the specified range, facilitating efficient and automated network configuration.
 
-<img src="https://github.com/StarksRepo/Active-Directory-Lab/assets/155681117/bd7bbad8-eedd-4d56-958b-40d7a82c5ba3)" width=500>
+<img src="https://github.com/StarksRepo/Active-Directory-Lab/assets/155681117/479c4f4c-be9e-4deb-a0d9-096d2e04d011)" width=500>
+<img src="(https://github.com/StarksRepo/Active-Directory-Lab/assets/155681117/d49ca115-a2e7-425f-82b3-9da9c9fc22c3)" width=500>
 
+Now, disable the Enhanced Security Configuration and download the PowerShell script for creating 1000 users from the GitHub repository.
+1. Disable Enhanced Security Configuration:
+ - Depending on your browser, go to the settings or options.
+ - Find and disable Enhanced Security Configuration.
+ - Save changes and restart the browser.
+2. Download PowerShell Script:
+ - Visit the GitHub repository containing the PowerShell script.
+ - Click on the provided link, and the script will automatically download.
+3. Extract Files:
+ - Once downloaded, extract the contents of the file. You should now have two files: a PowerShell script for creating users and a "names.txt" file containing a list of names.
+4. Modify Names.txt:
+ - Open the "names.txt" file.
+ - Add your first name to the list, ensuring it's in a format compatible with the script.
+Now, you're ready to execute the PowerShell script, creating users in your Active Directory based on the names in the modified "names.txt" file.
 
+<img src="https://github.com/StarksRepo/Active-Directory-Lab/assets/155681117/6c518a4d-a5d1-43d3-9a9b-ffedc91fa888)" width=500>
 
+Now, open PowerShell as an administrator and execute the script:
+Right-click on the PowerShell icon.
+Select "Run as Administrator" to open PowerShell with elevated privileges.
+Once PowerShell is open, navigate to the directory where you saved the PowerShell script. Execute the script by typing its name and pressing Enter.
 
+<img src="https://github.com/StarksRepo/Active-Directory-Lab/assets/155681117/c4875bda-669f-4077-a7b1-7ef25787eed6)" width=500>
 
 
