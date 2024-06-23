@@ -158,9 +158,14 @@ As you can see running the script successfully creates the 1000 users in your Ac
 
 Now we have to check that the users were successfully added to AD.
 
-Open Server Manager:Launch Server Manager on your Windows Server.
-Access Local Server Information:In Server Manager, look for the "Local Server" tab on the left side.
-Check Active Directory Users:Within the "Local Server" information, there should be a section related to Active Directory. Click on the task link that typically says "Tools" or "Manage."
-Open Active Directory Users and Computers:In the "Tools" or "Manage" section, look for "Active Directory Users and Computers" and open it.
-Verify User Creation:Navigate to the Organizational Unit (OU) where you created the users, such as "_ADMINS."Check if the users have been successfully created. You should see the 1000 users listed in this OU.
+1. Open Server Manager:Launch Server Manager on your Windows Server.
+
+2.Access Local Server Information:In Server Manager, look for the "Local Server" tab on the left side.
+
+3.Check Active Directory Users:Within the "Local Server" information, there should be a section related to Active Directory. Click on the task link that typically says "Tools" or "Manage."
+
+4.Open Active Directory Users and Computers:In the "Tools" or "Manage" section, look for "Active Directory Users and Computers" and open it.
+
+5.Verify User Creation:Navigate to the Organizational Unit (OU) where you created the users, such as "_ADMINS."Check if the users have been successfully created. You should see the 1000 users listed in this OU.
+
 By going through these steps, you can confirm that the script has effectively created the users within your Active Directory. If you encounter any issues or have further questions, feel free to ask!
