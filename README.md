@@ -164,3 +164,13 @@ Now we have to check that the users were successfully added to AD.
 4. Open Active Directory Users and Computers: In the "Tools" or "Manage" section, look for "Active Directory Users and Computers" 
 5. Verify User Creation:Navigate to the Organizational Unit (OU) where you created the users, such as "_ADMINS."Check if the users have been successfully created. You should see the 1000 users listed in this OU.
 By going through these steps, you can confirm that the script has effectively created the users within your Active Directory. 
+
+<img src="https://github.com/StarksRepo/Active-Directory-Lab/assets/155681117/ceb64cca-6f0b-4a31-8b30-be0014b5ba2e)" width=500>
+
+
+
+
+
+
+
+
