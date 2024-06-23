@@ -112,6 +112,15 @@ By following these steps, you enable remote access and NAT, allowing client comp
 
 <img src="https://github.com/StarksRepo/Active-Directory-Lab/assets/155681117/fdfb67c5-b568-4bc5-97aa-fa29c990ca2f)" width=500>
 
+## DHCP Configuration
+
+Proceed to configure DHCP (Dynamic Host Configuration Protocol) by following these steps:
+1. Click on "dc.mydomain" and check "IPv4."
+2. In the DHCP management console, create an IP address scope for the users.
+3. Set the DHCP IP address scope to 172.16.0.100-200. This range will allow for the assignment of new IP addresses to devices within your network.
+By establishing this DHCP IP address scope, you ensure that devices connecting to your network will be dynamically assigned IP addresses within the specified range, facilitating efficient and automated network configuration.
+
+<img src="https://github.com/StarksRepo/Active-Directory-Lab/assets/155681117/bd7bbad8-eedd-4d56-958b-40d7a82c5ba3)" width=500>
 
 
 
